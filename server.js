@@ -12,7 +12,6 @@ const mainRoutes = require("./routes/main");
 const postRoutes = require("./routes/posts");
 const commentRoutes = require("./routes/comment");
 
-
 //Use .env file in config folder
 require("dotenv").config({ path: "./config/.env" });
 
